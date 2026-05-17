@@ -64,8 +64,8 @@
 ## 🎯 담당 파트 (본인 기여도: 약 60%)
 
 ### 1️⃣ 오디오 시스템 설계
-- **[`AudioManager.cs`](Scripts/01.Manager/AudioManager.cs)**: 싱글톤 기반 BGM/SFX 제어, 씬별 BGM 자동 전환
-- **[`SpatialAudioManager.cs`](Scripts/01.Manager/SpatialAudioManager.cs)**: 32개 AudioSource 풀 관리, 거리 기반 우선순위 재생
+- **[`AudioManager.cs`](Script/01.Manager/AudioManager.cs)**: 싱글톤 기반 BGM/SFX 제어, 씬별 BGM 자동 전환
+- **[`SpatialAudioManager.cs`](Script/01.Manager/SpatialAudioManager.cs)**: 32개 AudioSource 풀 관리, 거리 기반 우선순위 재생
 
 ```csharp
 // 핵심 로직: 거리 기반 우선순위 재생
@@ -86,12 +86,12 @@ foreach (VirtualSound vs in sortedSounds) {
 ```
 
 ### 2️⃣ 퍼즐 시스템 구현
-- **[`Puzzle1.cs`](Scripts/04.Scene_1/Puzzle1.cs)**: 사운드 시퀀스 퍼즐, 카메라 전환, 플레이어 입력 제어
-- **[`MelodyPuzzleManager.cs`](Scripts/05.Scene_2/MelodyPuzzleManager.cs)**: 멜로디 매칭 퍼즐, 8개 음계 시스템
-- **[`PlayerLineDrawer.cs`](Scripts/Scene_3/PlayerLineDrawer.cs)**: 동물 소리 경로 추적, Line Renderer 시각화, Undo 기능
+- **[`Puzzle1.cs`](Script/04.Scene_1/Puzzle1.cs)**: 사운드 시퀀스 퍼즐, 카메라 전환, 플레이어 입력 제어
+- **[`MelodyPuzzleManager.cs`](Script/05.Scene_2/MelodyPuzzleManager.cs)**: 멜로디 매칭 퍼즐, 8개 음계 시스템
+- **[`PlayerLineDrawer.cs`](Script/Scene_3/PlayerLineDrawer.cs)**: 동물 소리 경로 추적, Line Renderer 시각화, Undo 기능
 
 ### 3️⃣ Firebase + IoT 연동
-- **[`FirebaseCycleReceiver.cs`](Scripts/08.WalkScene/FirebaseCycleReceiver.cs)**: 회전 센서 데이터 실시간 리스닝, Quaternion 기반 회전 감지
+- **[`FirebaseCycleReceiver.cs`](Script/08.WalkScene/FirebaseCycleReceiver.cs)**: 회전 센서 데이터 실시간 리스닝, Quaternion 기반 회전 감지
 
 ```csharp
 float deltaAngle = Quaternion.Angle(lastRotation, currentRotation);
@@ -105,8 +105,8 @@ if (accumulatedAngle >= 360f) {
 ```
 
 ### 4️⃣ 플레이어 제어 시스템
-- **[`PlayerControlBase.cs`](Scripts/02.Player/PlayerControlBase.cs)**: 1인칭 이동, 점프, 수중 모드, 리스폰
-- **[`CameraController.cs`](Scripts/02.Player/CameraController.cs)**: 마우스 감도 제어, PlayerPrefs 저장
+- **[`PlayerControlBase.cs`](Script/02.Player/PlayerControlBase.cs)**: 1인칭 이동, 점프, 수중 모드, 리스폰
+- **[`CameraController.cs`](Script/02.Player/CameraController.cs)**: 마우스 감도 제어, PlayerPrefs 저장
 
 ---
 
