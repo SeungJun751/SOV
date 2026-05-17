@@ -44,7 +44,6 @@
 
 ### 🤖 Google Gemini 2.0 Flash 챗봇
 - **힐링 대화 시스템**: 게임 내에서 AI와 대화하며 감정 위로 기능 제공
-- **비동기 HTTP 통신**: UnityWebRequest로 API 호출 및 JSON 파싱
 
 ---
 
