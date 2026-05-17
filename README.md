@@ -3,7 +3,6 @@
 > **5.1채널 공간 입체음향을 활용한 힐링 퍼즐 게임**
 
 [![Unity](https://img.shields.io/badge/Unity-6-black?logo=unity)](https://unity.com/)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![ICT Award](https://img.shields.io/badge/🥇-ICT%20어워드코리아%20금상-gold)](https://github.com/SeungJun751/SOV)
 
 **Sound of Vista**는 5.1채널 공간 오디오 기술과 IoT 하체 운동 기구를 결합한 Unity 3D 힐링 퍼즐 게임입니다.  
