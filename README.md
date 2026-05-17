@@ -169,7 +169,7 @@ Bluetooth 운동기구 → Android 앱 → Firebase → Unity PC
 
 ```
 SOV/
-├── Scripts/
+├── Script/
 │   ├── 01.Manager/          # 핵심 매니저 시스템
 │   │   ├── AudioManager.cs          # BGM/SFX 제어, 씬별 자동 전환
 │   │   ├── SpatialAudioManager.cs   # 3D 사운드 풀링 시스템
