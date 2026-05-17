@@ -20,7 +20,7 @@
   - 🥇 **ICT 어워드코리아 2025 금상** (전자신문사)
   - 🏆 성결대학교 캡스톤디자인(2) 우수상 (2025-1학기)
 
-**📺 플레이 영상**: [YouTube](https://youtube.com/watch?v=example)  
+**📺 플레이 영상**: [YouTube](https://youtu.be/KZ4Gd42kTfo?si=mtIBdOqqs8kFopZG)  
 **🌐 포트폴리오**: [김승준 Portfolio](https://seungjun751.github.io)
 
 ---
