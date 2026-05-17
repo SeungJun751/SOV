@@ -53,7 +53,7 @@
 
 | 분류 | 기술 |
 |------|------|
-| **엔진** | Unity 2022 LTS |
+| **엔진** | Unity 6 |
 | **언어** | C# (.NET Framework) |
 | **오디오** | Audio Mixer (5.1 Surround), Spatial Audio, AudioSource Pooling |
 | **네트워크** | Firebase Realtime Database, Google Gemini API |
