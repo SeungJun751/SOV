@@ -2,7 +2,7 @@
 
 > **5.1채널 공간 입체음향을 활용한 힐링 퍼즐 게임**
 
-[![Unity](https://img.shields.io/badge/Unity-2022-black?logo=unity)](https://unity.com/)
+[![Unity](https://img.shields.io/badge/Unity-6-black?logo=unity)](https://unity.com/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![ICT Award](https://img.shields.io/badge/🥇-ICT%20어워드코리아%20금상-gold)](https://github.com/SeungJun751/SOV)
 
